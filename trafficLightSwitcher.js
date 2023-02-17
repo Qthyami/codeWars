@@ -7,3 +7,9 @@ function updateLight(current) {
    
   }
   console.log(updateLight('red'))
+
+  const updateLight = current => ({
+    green: 'yellow',
+    yellow: 'red',
+    red: 'green',
+  })[current]
