@@ -8,8 +8,8 @@ function updateLight(current) {
   }
   console.log(updateLight('red'))
 
-  const updateLight = current => ({
+  const updateLight2 = current2 => ({
     green: 'yellow',
     yellow: 'red',
     red: 'green',
-  })[current]
+  })[current2]
