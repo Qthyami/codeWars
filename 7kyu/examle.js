@@ -11,3 +11,19 @@ function squareSum(numbers) {
   }
 console.log (squareSum(numbers));
 
+
+function getMiddle(s)
+{
+  let count = 0;
+for (let i=0; i< s.length; i++) {
+  count++;
+}
+  if (count %2 ===0){
+  e= count/2;
+  return  s[e-1]+ s[e]; }
+  else {e =count/2;
+    e= count/2 - 0.5;
+     return s[e]   
+       }
+}
+console.log(getMiddle('ehalgrekacherezrekus'));

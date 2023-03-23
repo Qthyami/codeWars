@@ -25,4 +25,12 @@
   }
   
   console.log(highAndLow("115 0 3 4 -54 198")); 
-  
+// another approach
+  function highAndLow2(numbers){
+    numbers = numbers.split(' ');
+    console.log(numbers);
+    return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+  }
+  console.log(highAndLow2("115 0 3 4 -54 198"));
+
+
