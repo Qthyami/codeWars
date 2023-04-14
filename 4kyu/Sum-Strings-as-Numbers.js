@@ -23,7 +23,7 @@ function sumStrings(a,b) {
 } 
     
   
-  console.log(sumStrings("8100824045303269669937",""));
+
 
 
  
