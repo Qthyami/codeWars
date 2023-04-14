@@ -9,7 +9,7 @@ function squareSum(numbers) {
     }
     return sum;
   }
-console.log (squareSum(numbers));
+
 
 
 function getMiddle(s)
@@ -26,4 +26,24 @@ for (let i=0; i< s.length; i++) {
      return s[e]   
        }
 }
-console.log(getMiddle('ehalgrekacherezrekus'));
+
+function generateHashtag (str) {
+let arr = "#"+ str.split(" ").map(n =>n.charAt(0).toUpperCase()+n.slice(1)).join('');
+
+return arr;
+
+}
+
+console.log(generateHashtag ('Hello mommy'));
+let ex = ['I',"X","C","I"]
+let roma = ["I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"];
+let ro= ex[0]+ex[1];
+
+console.log(roma.includes(ro));
+
+
+
+function sumStrings(a,b) { 
+  return (BigInt(a) + BigInt(b)).toString();
+}
+console.log(sumStrings("8100824045303269669937","18!"))
