@@ -26,7 +26,6 @@ function binaryAverage(binary) {
         }
       }
     }
-    
   }
   const arrRes=  result.filter(n=>!n.includes("x")).map(n=>parseInt(n,2)).filter(n=>n!== 0); 
   const sum= arrRes.reduce((acc,cur)=>acc+cur,0);
